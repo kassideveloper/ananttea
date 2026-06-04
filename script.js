@@ -1,4 +1,4 @@
-const whatsappNumber = '911234567890'; // Replace with your WhatsApp phone number in international format without "+"
+const whatsappNumber = '919762624444'; // Replace with your WhatsApp phone number in international format without "+"
 const products = [
   {
     brand: 'GreenLeaf',
