@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AnantTea | Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">AnantTea</div>
+    <nav class="site-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <button class="cart-button" id="cartCountButton">
+      Cart <span id="cart-count">0</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Welcome to AnantTea</h1>
+        <p>Find your favourite brands and add products to cart. Checkout with WhatsApp to confirm your order.</p>
+      </div>
+    </section>
+
+    <section class="products-section">
+      <h2>Brands & Products</h2>
+      <div id="product-list" class="product-list"></div>
+    </section>
+
+    <aside class="cart-panel">
+      <div class="cart-panel-header">
+        <h2>Your Cart</h2>
+        <button id="clearCartButton" class="secondary-button">Clear</button>
+      </div>
+      <div id="cart-items" class="cart-items"></div>
+      <div class="cart-summary">
+        <div>
+          <span>Items:</span>
+          <strong id="cart-total-items">0</strong>
+        </div>
+        <div>
+          <span>Total:</span>
+          <strong id="cart-total-price">₹0</strong>
+        </div>
+      </div>
+      <button id="checkoutButton" class="primary-button">Checkout on WhatsApp</button>
+      <p class="checkout-note">Orders are confirmed manually over WhatsApp.</p>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 AnantTea. Confirm your order on WhatsApp after checkout.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
