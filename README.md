@@ -31,7 +31,7 @@ Then visit `http://localhost:8000`.
 Update the phone number in `script.js`:
 
 ```js
-const whatsappNumber = '911234567890';
+const whatsappNumber = '919762624444';
 ```
 
 Use your WhatsApp number in international format without the leading `+`.
